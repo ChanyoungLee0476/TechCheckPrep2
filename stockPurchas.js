@@ -20,10 +20,12 @@ function main()
         let number = parseFloat(readlineSync.question("Enter what is the number of shares: "))
         
     // Process
-    //
+    //  the product of cost_per_share and number_of_shares to the variable markdown.
         let markdown = cost + number;
 
     // Output
+    // the value of the variable markdown 
+        console.log("Markdown: " + markdown.toFixed(2));
 
 }
 
