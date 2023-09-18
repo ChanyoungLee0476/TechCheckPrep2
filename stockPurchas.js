@@ -10,10 +10,21 @@ C. Assign the product of cost_per_share and number_of_shares to the variable mar
 D. Display the value of the variable markdown in the console application.
 */
 
+let readlineSync = require('readline-sync');
 // DO NOT EDIT: The main function to house our program code 
 function main()
 {
-    // enter your code here
+    // Input
+    // The information of the variables
+        let cost = parseFloat(readlineSync.question("Enter what is the cost per share: "));
+        let number = parseFloat(readlineSync.question("Enter what is the number of shares: "))
+        
+    // Process
+    //
+        let markdown = cost + number;
+
+    // Output
+
 }
 
 // DO NOT EDIT: Trigger our main function to launch the program
